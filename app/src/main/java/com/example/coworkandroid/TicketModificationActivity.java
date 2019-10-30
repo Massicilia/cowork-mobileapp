@@ -1,0 +1,13 @@
+package com.example.coworkandroid;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class TicketModificationActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_ticket_modification);
+    }
+}
